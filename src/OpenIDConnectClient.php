@@ -215,6 +215,11 @@ class OpenIDConnectClient
     private $allowImplicitFlow = false;
 
     /**
+     * @var bool Allows to not redirect immediately when
+     */
+    private $redirectimmediately = true;
+
+    /**
      * @param $provider_url string optional
      *
      * @param $client_id string optional
